@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    font-family: "Poppins", sans-serif;
+    background-color:#fafafa
+}
+
+html {
+    display: block;
+}
+
+.theLooks {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #7f85a5;
+}
+
+header {
+    display: block;
+    unicode-bidi: isolate;
+}
+main {
+    margin-top: 100px;
+    padding-top: 100px;
+    section {
+        margin-bottom: 70px;
+        padding-bottom: 40px;
+    }
+}
