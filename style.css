@@ -4,7 +4,7 @@
     border: 0;
 
     font-family: "Poppins", sans-serif;
-    background-color:#fafafa
+    background-color:#ffffff
 }
 
 html {
@@ -14,18 +14,39 @@ html {
 .theLooks {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    color: #7f85a5;
+    color: #7f85a5; 
 }
 
 header {
     display: block;
     unicode-bidi: isolate;
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+        background-color: #ffffff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        height: 70px;
+    }
 }
 main {
-    margin-top: 100px;
-    padding-top: 100px;
+    margin-top: 80px;
+    padding-top: 60px;
     section {
         margin-bottom: 70px;
         padding-bottom: 40px;
+        #logo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        #home-paragraph {
+            font-size: 1.2rem;
+            color: #7f85a5;
+            width: 60%;
+        }
+        
     }
 }
