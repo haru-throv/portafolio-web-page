@@ -13,6 +13,11 @@
     />
   </head>
   <body>
+    <!-- 
+      ==================================
+                  NAVBAR
+      ================================== 
+    -->
     <header>
       <nav class="navbar bg-body-tertiary fixed-top">
         <div class="container-fluid">
@@ -91,32 +96,53 @@
       </nav>
     </header>
     <main>
+      <!-- 
+        ==================================
+                  HOME SECTION
+        ================================== 
+      -->
       <section id="home">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <img
-                src="assets/ChatGPT Image 5 sept 2026, 01_00_53.png"
-                alt="Profile Picture"
-                class="img-fluid rounded-circle"
-                id="logo"
-              />
+              <h1 class="display-1">DIEGO</h1>
+              <h1 class="display-1">DOSSENA</h1>
             </div>
             <div class="col-md-6">
-              <h2 class="theLooks">Hi, I'm Diego Dossena</h2>
-              <p id="home-paragraph" class="theLooks">Full-stack engineer & product designer. I build interfaces that are fast, clear, and hard to put down.</p>
+              <h2 class="lead">Welcome to My Portfolio</h2>
+              <p id="home-paragraph" class="lead">
+                Full-stack engineer & product designer. I build interfaces that
+                are fast, clear, and hard to put down.
+              </p>
             </div>
           </div>
         </div>
       </section>
+      <!-- 
+        ==================================
+                  ABOUT SECTION
+        ================================== 
+      -->
       <section id="about">
         <div class="container">
-          <h2 class="theLooks">About Me</h2>
-          <p class="theLooks">
-            I am a web developer with a passion for creating beautiful and
-            functional websites. I have experience in HTML, CSS, JavaScript, and
-            various frameworks.
-          </p>
+          <div class="row">
+            <div class="col-md-6">
+              <img
+                src="assets/profile.png"
+                alt="Profile Picture"
+                class="img-fluid rounded-circle"
+                id="profile-picture"
+              />
+            </div>
+            <div class="col-md-6">
+              <h2 class="lead">About Me</h2>
+              <p class="lead">
+                I am a web developer with a passion for creating beautiful and
+                functional websites. I have experience in HTML, CSS, JavaScript,
+                and various frameworks.
+              </p>
+            </div>
+          </div>
         </div>
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
@@ -129,7 +155,7 @@
                 aria-expanded="true"
                 aria-controls="collapseOne"
               >
-                Bio
+                Biography
               </button>
             </h2>
             <div
@@ -138,15 +164,35 @@
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                <strong>Personal Bio</strong> It is shown by default, until the
-                collapse plugin adds the appropriate classes that we use to
-                style each element. These classes control the overall
-                appearance, as well as the showing and hiding via CSS
-                transitions. You can modify any of this with custom CSS or
-                overriding our default variables. It’s also worth noting that
-                just about any HTML can go within the
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                <ul class="list-unstyled">
+                  <li>
+                    <strong> Personal Bio </strong>
+                  </li>
+                  <li>
+                    <p>
+                      I have always been trying to develop my capacities, to
+                      enjoy myself for life.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Even before school, I remember trying to be all over the
+                      place to discover new capabilities.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      That is why, I have been good at drawing, reading,
+                      writing, and composing music for my own amusement.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      I got fluent at speaking three languages in my life, and I
+                      am still, learning others in duolingo.
+                    </p>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -212,6 +258,11 @@
           </div>
         </div>
       </section>
+      <!-- 
+        ==================================
+                  SKILLS SECTION
+        ==================================
+      -->
       <section id="skills">
         <div class="container">
           <h2 class="theLooks">Skills</h2>
@@ -225,7 +276,6 @@
         </div>
       </section>
     </main>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"

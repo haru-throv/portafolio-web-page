@@ -1,52 +1,73 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 
-    font-family: "Poppins", sans-serif;
-    background-color:#ffffff
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+}
+
+:root {
+  --primary-color: #7f85a5;
+  --background-color: #f5f5f5;
+  --accent-color: #ff6b6b;
+  --text-color: #333333;
+  --font-family: "Poppins", sans-serif;
 }
 
 html {
+  display: block;
+  body {
     display: block;
-}
-
-.theLooks {
-    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    font-family: var(--font-family);
     font-weight: 600;
-    color: #7f85a5; 
-}
-
-header {
-    display: block;
-    unicode-bidi: isolate;
-    nav {
+    color: var(--primary-color);
+    header {
+      display: block;
+      unicode-bidi: isolate;
+      nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 20px 40px;
-        background-color: #ffffff;
+        background-color: var(--background-color);
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         height: 70px;
+      }
     }
-}
-main {
-    margin-top: 80px;
-    padding-top: 60px;
-    section {
-        margin-bottom: 70px;
-        padding-bottom: 40px;
-        #logo {
+      main {
+        margin-top: 80px;
+        padding-top: 60px;
+        section {
+          margin-bottom: 70px;
+          padding-bottom: 40px;
+        }
+        #home {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          background-color: var(--background-color);
+          #home-paragraph {
+            font-size: 1.2rem;
+            color: var(--primary-color);
+            width: 60%;
+          }
+        }
+        #about {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          #profile-picture {
             width: 200px;
             height: 200px;
             border-radius: 50%;
             object-fit: cover;
+          }
         }
-        #home-paragraph {
-            font-size: 1.2rem;
-            color: #7f85a5;
-            width: 60%;
-        }
-        
-    }
+      }
+  }
 }
