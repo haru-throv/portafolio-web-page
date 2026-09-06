@@ -1,168 +1,122 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portafolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <!-- 
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+</head>
+
+<body>
+  <!-- 
       ==================================
                   NAVBAR
       ================================== 
     -->
-    <header>
-      <nav class="navbar bg-body-tertiary fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#home">
-            <img
-              src="assets/ChatGPT Image 5 sept 2026, 01_00_53.png"
-              alt="Logo"
-              width="50"
-              height="50"
-              class="d-inline-block align-text-top"
-            />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                Go ahead and explore
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#home"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#skills">Skills</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#contact">Hire me</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
+  <header>
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home">
+          <img src="assets/ChatGPT Image 5 sept 2026, 01_00_53.png" alt="Logo" width="50" height="50"
+            class="d-inline-block align-text-top" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              Go ahead and explore
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#contact">Hire me</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </div>
         </div>
-      </nav>
-    </header>
-    <main>
-      <!-- 
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- 
         ==================================
                   HOME SECTION
         ================================== 
       -->
-      <section id="home">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <h1 class="display-1">DIEGO</h1>
-              <h1 class="display-1">DOSSENA</h1>
-            </div>
-            <div class="col-md-6">
-              <h2 class="lead">Welcome to My Portfolio</h2>
-              <p id="home-paragraph" class="lead">
-                Full-stack engineer & product designer. I build interfaces that
-                are fast, clear, and hard to put down.
-              </p>
-            </div>
+    <section id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="display-1">DIEGO</h1>
+            <h1 class="display-1">DOSSENA</h1>
+          </div>
+          <div class="col-md-6">
+            <h2 class="lead">Welcome to My Portfolio</h2>
+            <p id="home-paragraph" class="lead">
+              Full-stack engineer & product designer. I build interfaces that
+              are fast, clear, and hard to put down.
+            </p>
           </div>
         </div>
-      </section>
-      <!-- 
+      </div>
+    </section>
+    <!-- 
         ==================================
                   ABOUT SECTION
         ================================== 
       -->
-      <section id="about">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <img
-                src="assets/profile.png"
-                alt="Profile Picture"
-                class="img-fluid rounded-circle"
-                id="profile-picture"
-              />
-            </div>
-            <div class="col-md-6">
-              <h2 class="lead">About Me</h2>
-              <p class="lead">
-                I am a web developer with a passion for creating beautiful and
-                functional websites. I have experience in HTML, CSS, JavaScript,
-                and various frameworks.
-              </p>
-            </div>
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="assets/profile.png" alt="Profile Picture" class="img-fluid rounded-circle" id="profile-picture" />
+          </div>
+          <div class="col-md-6">
+            <h2>About Me</h2>
+            <p>
+              I am a web developer with a passion for creating beautiful and
+              functional websites. I have experience in HTML, CSS, JavaScript,
+              and various frameworks.
+            </p>
           </div>
         </div>
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button
-                class="accordion-button"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseOne"
-                aria-expanded="true"
-                aria-controls="collapseOne"
-              >
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
                 Biography
               </button>
             </h2>
-            <div
-              id="collapseOne"
-              class="accordion-collapse collapse show"
-              data-bs-parent="#accordionExample"
-            >
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <ul class="list-unstyled">
                   <li>
@@ -188,8 +142,8 @@
                   </li>
                   <li>
                     <p>
-                      I got fluent at speaking three languages in my life, and I
-                      am still, learning others in duolingo.
+                      I got fluent at speaking three languages in my life, and
+                      I am still, learning others in duolingo.
                     </p>
                   </li>
                 </ul>
@@ -198,88 +152,143 @@
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo"
-                aria-expanded="false"
-                aria-controls="collapseTwo"
-              >
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 Languages
               </button>
             </h2>
-            <div
-              id="collapseTwo"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
-            >
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <strong>Languages</strong>
-                Spanish as a native language. I'm very fluent in English due to
-                an experience I had in Germany, since practice really allowed me
-                to get some break through experience apart from just having my
-                First Certificate graduation diploma. After having lived for a
-                year in Germany, I got very fluent at the language after the
-                middle of the year.
+                Spanish as a native language. I'm very fluent in English due
+                to an experience I had in Germany, since practice really
+                allowed me to get some break through experience apart from
+                just having my First Certificate graduation diploma. After
+                having lived for a year in Germany, I got very fluent at the
+                language after the middle of the year.
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseThree"
-                aria-expanded="false"
-                aria-controls="collapseThree"
-              >
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 Location
               </button>
             </h2>
-            <div
-              id="collapseThree"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
-            >
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the third item’s accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
+                <strong>This is the third item’s accordion body.</strong> It
+                is hidden by default, until the collapse plugin adds the
                 appropriate classes that we use to style each element. These
                 classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It’s also worth
-                noting that just about any HTML can go within the
+                and hiding via CSS transitions. You can modify any of this
+                with custom CSS or overriding our default variables. It’s also
+                worth noting that just about any HTML can go within the
                 <code>.accordion-body</code>, though the transition does limit
                 overflow.
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- 
+      </div>
+    </section>
+    <!-- 
         ==================================
                   SKILLS SECTION
         ==================================
       -->
-      <section id="skills">
-        <div class="container">
-          <h2 class="theLooks">Skills</h2>
-          <ul class="theLooks">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Node.js</li>
-          </ul>
+    <section id="skills">
+      <div class="container">
+        <h2 class="theLooks">Skills</h2>
+        <ul class="theLooks">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+        </ul>
+      </div>
+    </section>
+    <!-- 
+        ==================================
+                  CONTACT SECTION
+        ==================================
+      -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Contact Me</h2>
+            <p>
+              If you would like to get in touch, please fill out the form
+              below and I will get back to you as soon as possible.
+            </p>
+          </div>
         </div>
-      </section>
-    </main>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Contact Information</h3>
+            <p>Email: example@email.com</p>
+            <p>Phone: (123) 456-7890</p>
+          </div>
+          <div class="col-md-6">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress2" class="form-label">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              </div>
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">State</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Check me out
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Diego Dossena. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
