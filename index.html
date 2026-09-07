@@ -101,16 +101,18 @@
     <section id="about">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div id="profile-img" class="col-md-6">
             <img src="assets/profile.png" alt="Profile Picture" class="img-fluid rounded-circle" id="profile-picture" />
           </div>
           <div class="col-md-6">
-            <h2>About Me</h2>
-            <p>
-              I am a web developer with a passion for creating beautiful and
-              functional websites. I have experience in HTML, CSS, JavaScript,
-              and various frameworks.
-            </p>
+            <div class="about-text">
+              <h1>About Me</h1>
+              <p>
+                I am a web developer with a passion for creating beautiful and
+                functional websites. I have experience in HTML, CSS, JavaScript,
+                and various frameworks.
+              </p>
+            </div>
           </div>
         </div>
         <div class="accordion" id="accordionExample">
@@ -183,15 +185,12 @@
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the third item’s accordion body.</strong> It
-                is hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this
-                with custom CSS or overriding our default variables. It’s also
-                worth noting that just about any HTML can go within the
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                <strong>
+                  Location
+                </strong>
+                <p>
+                  I am currently located in [Mercedes, Uruguay].
+                </p>
               </div>
             </div>
           </div>
@@ -204,15 +203,20 @@
         ==================================
       -->
     <section id="skills">
-      <div class="container">
-        <h2 class="theLooks">Skills</h2>
-        <ul class="theLooks">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>Node.js</li>
-        </ul>
+      <div class="container skills-container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Skills:</h1>
+          </div>
+          <div class="col-md-6">
+            <h3>Technical Skills</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+        </div>  
       </div>
     </section>
     <!-- 
@@ -234,8 +238,8 @@
         <div class="row">
           <div class="col-md-6">
             <h3>Contact Information</h3>
-            <p>Email: example@email.com</p>
-            <p>Phone: (123) 456-7890</p>
+            <p>Email: dossenadiego530@gmail.com</p>
+            <p>Cell Phone: (+598) 91242403</p>
           </div>
           <div class="col-md-6">
             <form class="row g-3">
