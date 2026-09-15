@@ -12,11 +12,11 @@
   --background-color: #f5f5f5;
   --font-family: "Poppins", sans-serif;
   --section-home-height: 100vh;
-  --section-brand-height: 150vh;
-  --section-about-height: 150vh;
-  --section-bio-height: 150vh;
-  --section-skills-height: 150vh;
-  --section-contact-height: 150vh;
+  --section-brand-height: 125vh;
+  --section-about-height: 125vh;
+  --section-bio-height: 125vh;
+  --section-skills-height: 125vh;
+  --section-contact-height: 125vh;
 }
 
 html {
